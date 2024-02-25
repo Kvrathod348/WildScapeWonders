@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.body{
+    border: none;
+  
+}
+
+.hedding-container{
+    display: inline-block;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: 10px;
+    margin-right: 20px;
+    background-color: black;
+}
+.about{
+    color: white;
+}
