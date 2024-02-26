@@ -136,8 +136,11 @@ body{
 
 
  .spe-animal-img{
-    height: 350px;
-    width: 500px;
+    height: 380px;
+    width: 520px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 4px gray;
+    margin-top: 80px;
  }
 
 
@@ -146,6 +149,7 @@ body{
  .history-container{
     background-color: #33ff74;
     text-align: center;
+  
    
  }
 
