@@ -1,5 +1,4 @@
 
-/* sakshi section work */
 body{
     padding: 0;
     margin: 0;
@@ -29,13 +28,19 @@ body{
 .navbar-logo-1{
     height: 100px;
     margin: 5px;
-  margin-top: -12px;
-
+  margin-top: -13px;
 }
 
 .navbar-logo-2{
     height: 40px;
     margin: 5px;
+    margin-top: 20px;
+
+}
+
+.menus-container{
+    /* background-color: blue; */
+}
     margin-top: 14px;
 
 }
@@ -100,8 +105,10 @@ body{
     font-size: 40px;
     font-weight: bold;
     box-shadow: 0 0 4px 3px greenyellow;
-    padding: 10px;
+    padding: 10px;
 }
+
+
 
 
 /* Kunal section */
