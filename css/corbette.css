@@ -98,3 +98,43 @@ body {
     cursor: pointer;
 
 }
+/* body section */
+.anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+  }
+  .heading-text{ 
+    width: 1400px;
+    margin: 30px 30px;
+    margin-bottom: 10px;
+    padding: 50px 30px;
+    border-right: double rgb(190, 227, 134);
+    
+  }
+  .heading{
+    margin-left: 150px;
+    font-size: medium;
+  }
+  .s-animal{
+    background-color: aquamarine;
+    width: 800px;
+    height: 450px;
+    margin: 20px 5px;
+    margin-left: 60px;
+    padding: 50px 30px;
+    border-radius: 20px;
+    border: solid rgba(23, 255, 178, 0.963);
+    box-shadow: 10px 15px 30px 8px rgb(157, 156, 156);
+  }
+  .animal-img{
+    width: 480px;
+    margin-top: -400px ;
+    margin-left: 850px;
+    padding: 20px;
+  }
+  .animal-midTop{
+    border-radius: 20px;
+    box-shadow: 10px 8px 20px 5px rgb(157, 156, 156);
+  }
