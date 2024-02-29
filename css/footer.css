@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
 }
 
 .body{
@@ -9,26 +8,22 @@
 }
 
 .hedding-container{
+    font-family: "Anta", sans-serif;
     display: inline-block;
     display: flex;
     flex-direction:row;
     justify-content: space-between;
     padding: 10px;
-    margin-right: 20px;
-    background-color: black;
+    background-color: skyblue;
 }
 .about{
-    color: white;
+    color: black;
+    
 }
 .icon{
-    color: rgb(12, 248, 12);
+    color: black;
 }
-.tiger-image{
-    width: 100%;
-    height: 600px;
-    box-shadow:10px 5px 5px black;
 
-}
 .headding{
     display: flex;
     align-items: center;
