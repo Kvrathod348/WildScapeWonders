@@ -53,6 +53,15 @@ body {
 
 }
 
+.navbar-logo-3 {
+    height: 80px;
+    margin: 5px;
+    margin-top: -5px;
+    background-color: aliceblue;
+    border-radius: 50px;
+
+}
+
 /* .menus-container{
     /* background-color: blue;
 } */

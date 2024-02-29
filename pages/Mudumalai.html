@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WildScape Wonders🐾</title>
-    <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./../css/Mudumalai.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -46,7 +46,7 @@
 
     <div class="head-image-container">
         <img src="./../img/Mudumalai/head-img-7.jpg" class="head-img">
-        <p class="head-img-text anta-regular">Mudumalai Natinal Park</p>
+        <p class="head-img-text anta-regular">Mudumalai National Park</p>
 
         <button class="head-img-btn">Book Now</button>
 
@@ -86,8 +86,8 @@
         </div>
 
 
-        <div class="special-animal-img-container">
-            <img src="./../img/Mudumalai/elephant-img.jpg" class="spe-animal-img">
+        <div class="special-animal-img-container" data-aos="fade-up-left" data-aos-duration="3000">
+            <img src="./../img/Mudumalai/elephant-img.jpg" class="spe-animal-img"></div>
 
 
         </div>
@@ -127,7 +127,7 @@
 
 
 
-        <div class="history-img-container">
+        <div class="history-img-container" data-aos="fade-up-left" data-aos-duration="3000">
             <img src="./../img/Mudumalai/history-img.webp" class="history-img">
 
 
@@ -146,8 +146,9 @@
     <div class="mudu-park-video-container">
 
         <div class="mudu-park-video-div">
-            <iframe class="iframe-mudu-park-video-div" src="https://www.youtube.com/embed/Il6j6uovJ9I?si=XuoE0rhjFQkva6qT"
-                title="YouTube video player" frameborder="0"
+            <iframe class="iframe-mudu-park-video-div"
+                src="https://www.youtube.com/embed/Il6j6uovJ9I?si=XuoE0rhjFQkva6qT" title="YouTube video player"
+                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
 
@@ -155,8 +156,9 @@
 
 
         <div class="mudu-park-video-div">
-            <iframe class="iframe-mudu-park-video-div"  src="https://www.youtube.com/embed/_RzFa90jCBQ?si=kN3lpXpqE8addLfX"
-                title="YouTube video player" frameborder="0"
+            <iframe class="iframe-mudu-park-video-div"
+                src="https://www.youtube.com/embed/_RzFa90jCBQ?si=kN3lpXpqE8addLfX" title="YouTube video player"
+                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </div>
@@ -164,8 +166,9 @@
 
         <div class="mudu-park-video-div">
 
-            <iframe class="iframe-mudu-park-video-div" src="https://www.youtube.com/embed/Z-JC7sv3x3g?si=21eV3a4TmJz1S2s5"
-                title="YouTube video player" frameborder="0"
+            <iframe class="iframe-mudu-park-video-div"
+                src="https://www.youtube.com/embed/Z-JC7sv3x3g?si=21eV3a4TmJz1S2s5" title="YouTube video player"
+                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </div>
@@ -186,7 +189,10 @@
 
 
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
