@@ -108,9 +108,9 @@ body {
 .head-img-text {
     position: absolute;
     top: 140px;
-    left: 130px;
+    left: 100px;
     color: white;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: bold;
     box-shadow: 0 0 4px 3px greenyellow;
     padding: 10px;
@@ -160,7 +160,7 @@ body {
     width: 520px;
     border-radius: 10px;
     box-shadow: 0 0 15px 4px gray;
-    margin-top: 160px;
+    margin-top: 140px;
 }
 
 /* history section */
