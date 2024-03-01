@@ -6,27 +6,34 @@
 .body{
     border: none;
 }
+.brand-logo{
+    width: 130px;
+}
 
 .hedding-container{
     font-family: "Anta", sans-serif;
     display: inline-block;
     display: flex;
     flex-direction:row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px;
-    background-color: skyblue;
+    background-color: black;
 }
 .about{
-    color: black;
+    color: white;
     
 }
-.icon{
-    color: black;
+.social-media-image{
+    width: 20px;
 }
 
 .headding{
     display: flex;
     align-items: center;
     justify-content: center;
+    
+}
+.address{
+    color: white;
     
 }
