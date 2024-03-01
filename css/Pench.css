@@ -4,6 +4,12 @@ body {
     background-color: off #f5f5f5;
 }
 
+
+
+    /* font-family: "Work Sans", sans-serif; */
+    
+  
+
 /* font-family: "Anta", sans-serif; */
 
 
@@ -107,8 +113,8 @@ body {
 
 .head-img-text {
     position: absolute;
-    top: 140px;
-    left: 130px;
+    top: 200px;
+    left: 100px;
     color: white;
     font-size: 40px;
     font-weight: bold;
@@ -160,7 +166,7 @@ body {
     width: 520px;
     border-radius: 10px;
     box-shadow: 0 0 15px 4px gray;
-    margin-top: 160px;
+    margin-top: 110px;
 }
 
 /* history section */
@@ -176,7 +182,7 @@ body {
 
 
 .history-desc-container {
-    background-color: #9af8b8;
+    background-color: #79ee9e;
     height: 410px;
     width: 600px;
     border-radius: 10px;
@@ -200,7 +206,7 @@ body {
 }
 
 .welcome-heading-container {
-    background-color: #33ff74;
+    background-color: #5bf68c;
     text-align: center;
 }
 
