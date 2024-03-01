@@ -98,17 +98,11 @@ body {
     position: relative;
 }
 
-/* .head-img-logo{
-    height: 120px;
-    position: absolute;
-    top: 120px;
-    left: 130px;
-} */
 
 .head-img-text {
     position: absolute;
-    top: 140px;
-    left: 100px;
+    top: 180px;
+    left: 80px;
     color: white;
     font-size: 32px;
     font-weight: bold;
@@ -176,7 +170,7 @@ body {
 
 
 .history-desc-container {
-    background-color: #9af8b8;
+    background-color: #79ee9e;
     height: 410px;
     width: 600px;
     border-radius: 10px;
@@ -200,7 +194,7 @@ body {
 }
 
 .welcome-heading-container {
-    background-color: #33ff74;
+    background-color: #5bf68c;
     text-align: center;
 }
 
