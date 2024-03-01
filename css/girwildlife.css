@@ -2,6 +2,8 @@ body {
     padding: 0;
     margin: 0;
     background-color: off #f5f5f5;
+    font-family: "Anta", sans-serif;
+    cursor: pointer;
 }
 
 /* font-family: "Anta", sans-serif; */
@@ -89,6 +91,7 @@ body {
     cursor: pointer;
 
 }
+/* season cards section */
 .footer-contanier{
     font-family: "Anta", sans-serif;
     font-weight: 400;
@@ -165,4 +168,108 @@ body {
 .season-color-container-2{
     background-color:aquamarine ;
     
+}
+/* body section */
+/* heading name */
+.heading-image{
+    width: 100%;
+    height: 500px;
+}
+.first-attraction{
+    width: 500px;
+    border-radius: 20px;
+}
+.special-animal-container {
+
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.special-animal-heading{
+    color: #05b53d;
+}
+.spe-animal-desc-container {
+
+    /* background-color: #33ff74; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 650px;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: "Anta", sans-serif;
+   
+}
+.spe-animal-img {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 4px gray;
+    margin-top: 50px;
+}
+.welcome-heading-container {
+    background-color: #ffff33;
+    text-align: center;
+}
+.history-container {
+    padding: 10px;
+    /* background-color: #33ff74; */
+    display: flex;
+    justify-content: space-around;
+    height: 440px;
+    text-align: center;
+}
+
+.history-desc-container {
+    background-color: #79ff4d;
+    height: 350px;
+    width: 600px;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: "Anta", sans-serif;
+}
+
+.history-heading {
+    font-size: 30px;
+    text-align: center;
+
+}
+.history-img {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 4px gray;
+    margin-top: 30px;
+
+
+}
+.temple-image-container{
+    display: flex;
+    justify-content: space-around;
+    
+  
+}
+
+
+.near-attraction-image{
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+    /* background-color: aqua; */
+}
+.heading-name-attraction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #33ff74;
+}
+.temple-images{
+
+    border-radius: 10px;
+    padding: 10px;
+}
+.temple-name{
+    font-size: 20px;
 }
