@@ -144,10 +144,7 @@ body{
     color: white;
     width:  120px;
     height: 6%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
  }
  .anta-regular {
     font-family: "Anta", sans-serif;

@@ -1,0 +1,106 @@
+/* button part */
+
+.btn-green{
+    background-color: #9fff80;
+    color: black;
+    border: 3px solid #269900;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-green:hover{
+    background-color: #99ffff ;
+    border: 3px solid #00b3b3;
+    transition: 0.5s;
+}
+.btn-singup {
+    background-color: #33ff74;
+    font-weight: bold;
+    border: none;
+    border: 2px solid #008028;
+}
+
+.btn-singup:hover {
+    background-color: #008028;
+    font-weight: bold;
+    border: 2px solid #008028;
+    color: white;
+    box-shadow: 0 0 2px 2px white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.border-gray{
+    border: 3px solid 
+}
+/* nav bar */
+.navbar-container {
+    background-color: #404040;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-menu {
+    text-decoration: none;
+    margin: 30px;
+    font-size: 20px;
+
+    color: white;
+}
+
+.navbar-logo-1 {
+    height: 100px;
+    margin: 5px;
+    margin-top: -12px;
+
+}
+
+.navbar-logo-2 {
+    height: 40px;
+    margin: 5px;
+    margin-top: 14px;
+
+}
+/* heading Part */
+.heading-text{ 
+    width: 1400px;
+    margin: 30px 30px;
+    margin-bottom: 10px;
+    padding: 50px 30px;
+  }
+
+  /* google font  */
+
+  .font-style{
+    font-family: "Anta", sans-serif;
+  }
+
+  /* font size */
+
+  .font-small{
+    font-weight: small;
+    font-style: normal;
+    font-size: 14px;
+  }
+
+  .font-medium{
+    font-weight: medium;
+    font-style: normal;
+    font-size: 14px;
+  }
+
+.font-large{
+  font-weight: large;
+  font-style: normal;
+  font-size: 14px;
+}
+
+
