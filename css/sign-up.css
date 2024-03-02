@@ -1,9 +1,213 @@
 .signup-container-height{
-    height: 510px;
-    top: 30px;
+    height: 480px;
+    width: 340px;
+    top: 70px;
+    
+
 }
 
 
 .margin-bottom-zero{
     margin-bottom: 0;
 }
+
+
+@media screen and (min-width:300px) and (max-width:569px){
+
+    .login-form-main-container{
+        height: 400px !important;
+        width: 200px !important;
+        margin-left:-140px !important;
+        position: absolute;
+         top: 120px;
+         left: 40%;
+
+    }
+    
+    
+    .login-text{
+        font-size: 25px;
+    }
+    
+    .login-logo-img{
+        height: 20px;
+       
+    }
+    
+    .login-form-container{
+        /* background-color: white; */
+        width: 160px;
+        margin: 30px auto;
+        margin-top: 0;
+        
+        
+    }
+    
+    
+    .input-box{
+        height: 20px;
+        width: 150px;
+    
+    }
+    
+    .login-page-btn{
+        margin-left: 40px;
+       padding: 7px 20px;
+       border-radius: 10px;
+      
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+
+    .login-form-main-container{
+        height: 400px;
+        width: 250px;
+        margin-left:-200px;
+        position: absolute;
+         top: 120px;
+         left: 40%;
+    }
+    
+    
+    .login-text{
+        font-size: 25px;
+    }
+    
+    .login-logo-img{
+        height: 20px;
+       
+    }
+    
+    .login-form-container{
+        /* background-color: white; */
+        width: 140px;
+        margin: 30px auto;
+        margin-top: 0;
+        
+    }
+    
+    
+    .input-box{
+        height: 20px;
+        width: 120px;
+    
+    }
+    
+    .login-page-btn{
+        margin-left: 25px;
+       padding: 7px 20px;
+       border-radius: 10px;
+      
+    }
+
+}
+
+
+@media screen and (min-width:601px) and (max-width:768px){
+
+    .login-form-main-container{
+        height: 400px;
+        width: 300px;
+        margin-left:-200px;
+        position: absolute;
+         top: 120px;
+         left: 40%;
+
+    }
+    
+    
+    .login-text{
+        font-size: 25px;
+    }
+    
+    .login-logo-img{
+        height: 20px;
+       
+    }
+    
+    .login-form-container{
+        /* background-color: white; */
+        width: 160px;
+        margin: 30px auto;
+        margin-top: 0;
+        
+        
+    }
+    
+    
+    .input-box{
+        height: 20px;
+        width: 150px;
+    
+    }
+    
+    .login-page-btn{
+        margin-left: 40px;
+       padding: 7px 20px;
+       border-radius: 10px;
+      
+    }
+
+}
+
+
+
+@media screen and (min-width:769px) and (max-width:1000px){
+
+    .login-form-main-container{
+        height: 400px;
+        width: 300px;
+        margin-left:-200px;
+        position: absolute;
+         top: 120px;
+         left: 40%;
+
+    }
+    
+    
+    .login-text{
+        font-size: 25px;
+    }
+    
+    .login-logo-img{
+        height: 20px;
+       
+    }
+    
+    .login-form-container{
+        /* background-color: white; */
+        width: 160px;
+        margin: 30px auto;
+        margin-top: 0;
+        
+        
+    }
+    
+    
+    .input-box{
+        height: 20px;
+        width: 150px;
+    
+    }
+    
+    .login-page-btn{
+        margin-left: 40px;
+       padding: 7px 20px;
+       border-radius: 10px;
+      
+    }
+
+}
+
+
