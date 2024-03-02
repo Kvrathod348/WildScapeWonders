@@ -7,12 +7,14 @@
   padding: 5px 15px;
   text-decoration: none;
   border-radius: 20px;
+  
 }
 
 .btn-green:hover {
   background-color: #99ffff;
   border: 3px solid #00b3b3;
   transition: 0.5s;
+  box-shadow: 0px 0px 10px 3px #4dffb8;
 }
 
 .btn-singup {
@@ -46,7 +48,7 @@
   transition: 0.5s;
   box-shadow: 0px 0px 10px 3px white;
 }
-
+/* button part end */
 
 /* nav bar */
 .navbar-container {
@@ -78,10 +80,15 @@
 .navbar-logo-2 {
   height: 40px;
   margin: 5px;
-  margin-top: 14px;
+  margin-top: 25px;
 
 }
+.navbar-img{
+  height: 70px;
+  text-align: center;
+  display: flex;
 
+}
 .menu {
   text-decoration: none;
   margin: 30px;
@@ -92,21 +99,13 @@
 
 /* end of navbar */
 
-/* heading Part */
-.heading-top {
-  width: 1000px;
-  margin: 30px 30px;
-  margin-bottom: 10px;
-  padding: 50px 30px;
-}
 
-/* google font  */
+/* google font  and font size */
 
 .font-style {
   font-family: "Anta", sans-serif;
 }
 
-/* font size */
 
 .font-small {
   font-weight: small;
@@ -126,22 +125,26 @@
   font-size: 30px;
 }
 
+/* font size part end */
+
 /* body parts */
+
+
 /* heading start */
 .heading-top {
   width: 1300px;
   margin: 30px 30px;
   margin-bottom: 50px;
   padding: 50px 30px;
-  border: solid 3px #00e68a;
-  background-color: #80ffcc;
+  background-color: #00b3b3;
+  border: 8px double #c1f0f0;
   box-shadow: 10px 15px 30px 8px rgb(157, 156, 156);
   border-radius: 0px 30px 0px 30px;
 
 }
 
 .heading {
-  margin-left: 150px;
+  margin-left: 140px;
   font-size: medium;
 }
 
@@ -173,7 +176,7 @@
 .animal-specialinfo-2 {
   background-color: #e6ff99;
   width: 800px;
-  height: 650px;
+  height: 600px;
   margin: 20px 5px;
   margin-left: 40px;
   padding: 10px 20px;
@@ -199,6 +202,9 @@
   border-radius: 0px 50px;
   box-shadow: 10px 15px 30px 6px rgb(157, 156, 156);
   border: solid black 3px ;
+  width: 500px;
+  height: auto;
+  object-fit: cover;
 }
 
 .mid-body-container{
@@ -211,12 +217,12 @@
 .animal-description{
   background-color: #00b3b3;
   width: 1000px;
-  height: 80px;
+  height: 70px;
   text-align: center;
   margin: 100px auto;
-  padding: 2px 0px 40px 0px  ;
+  padding: 60px 0px 30px 0px  ;
   border-radius: 5px 50px;
-  border: 5px double #258e8e;
+  border: 8px double #c1f0f0;
 }
 
 .animal-video{
@@ -249,11 +255,6 @@
 
 /* season card */
 
-.footer-contanier{
-  font-family: "Anta", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
 .main-card-season-container{ 
   height: 400px;
   margin: 50px auto;
@@ -326,5 +327,86 @@
   
 }
 /* season card end */
+/* attraction card */
+.card-container{
+  margin: 30px auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border: 15px double #4dffb8;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 35px;
+  
+}
+.card-attraction-img{
+  width: 400px;
+  height: 300px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 15px 5px rgb(155, 155, 155);
+  
+}
+.card-attraction{
+  width: 400px;
+  height:  550px;
+  padding: 20px;
+  text-align: center;
+  margin: 40px 0px;
+  border-radius: 50px;
+  box-shadow: 10px 10px 15px 5px rgb(155, 155, 155);;
+}
+/* attraction card end */
+
+/* fotter part start */
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.body{
+  border: none;
+}
+.brand-logo{
+  width: 130px;
+  padding-top: 20px;
+}
+
+
+.hedding-container{
+  font-family: "Anta", sans-serif;  
+  display: inline-block;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  padding: 10px;
+ 
+  background-color: black;
+}
+.footer-heading{
+  color: white;
+  font-size: 13px;
+  padding-top: 40px;
+  
+}
+.social-media-image{
+  width: 20px;
+}
+
+.headding{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.address{
+  color: white;
+  
+}
+.under-line{
+  text-decoration-color: rgb(255, 123, 0);
+  margin-top: 10px;
+}
+/* fotter part end */
 
 
