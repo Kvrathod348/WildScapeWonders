@@ -32,6 +32,20 @@
   transition: 0.5s;
   cursor: pointer;
 }
+.btn-blue {
+  background-color: #99ffff;
+  color: black;
+  border: 3px solid #00b3b3;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+.btn-blue:hover {
+  background-color: #b3ffe6;
+  border: 3px double #00cc88;
+  transition: 0.5s;
+  box-shadow: 0px 0px 10px 3px white;
+}
 
 
 /* nav bar */
@@ -194,7 +208,44 @@
   display: flex;
   }
 /* about animal video */
+.animal-description{
+  background-color: #00b3b3;
+  width: 1000px;
+  height: 80px;
+  text-align: center;
+  margin: 100px auto;
+  padding: 2px 0px 40px 0px  ;
+  border-radius: 5px 50px;
+  border: 5px double #258e8e;
+}
 
+.animal-video{
+  display: flex;
+  gap:  30px;
+  justify-items: center;
+  margin: 100px auto;
+} 
+.animal-video-card{
+  border-radius: 30px;
+  box-shadow: 10px 10px 30px 6px rgb(177, 174, 174)
+}
+/* about animal video end */
+
+/* safari booking */
+.animal-safari{
+  margin: 150px auto;
+  margin-bottom: 200px;
+}
+.animal-safari-book{
+  align-items: center;
+  text-align: center;
+  margin-top: -300px ;
+  margin-left: 300px;
+  color: white;
+  font-size: large;
+  width: 1000px;
+}
+/* safari booking end */
 
 /* season card */
 
@@ -275,3 +326,5 @@
   
 }
 /* season card end */
+
+
