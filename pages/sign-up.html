@@ -3,46 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>signin</title>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./../css/login.css">
     <link rel="stylesheet" href="./../css/sign-up.css">
 </head>
 <body>
-    <div class="sign-in-container">
+    <div class="login-container">
 
-        <img src="sign-in-tiger-img.jpeg" class="sign-in-tiger-img">
+        <img src="./../img/login/sign-in-tiger-img.jpeg" class="login-tiger-img">
 
-        <div class="sign-in-form-container">
+        <div class="login-form-main-container signup-container-height">
 
-            <h1 class="sign-in-text">Sign in</h1>
+            <h1 class="login-text margin-bottom-zero">Sign Up</h1>
 
-            <div class="sign-in-logo-img-container">
-                <img src="facebook.png" class="sign-logo-img">
-                <img src="google.png" class="sign-logo-img">
-                <img src="linkedin.png" class="sign-logo-img">
-            </div>
-
-          <div class="sign-form-container">
+          <div class="login-form-container top-margin-zero">
             <form>
             
-                <input type="text" placeholder="Name" class="input-box">
+                <input type="text" placeholder="First Name" class="input-box" required>
                 <br><br>
-
-                <input type="email" placeholder="Email" class="input-box">
+                <input type="text" placeholder="Last Name" class="input-box" required>
                 <br><br>
-                <input type="password" placeholder="password" class="input-box">
+                <input type="email" placeholder="Email" class="input-box" required>
+                <br><br>
+                <input type="password" placeholder="Password" class="input-box" required>
+                <br><br>
+                <input type="password" placeholder="Confirm Password" class="input-box" required>
 
-
+                <br><br>
+                <button class="login-page-btn" type="submit">Submit</button>
+                
             </form>
-        </div>
+            <br><br>
+           
 
-        <div>
-
-
-        <button class="sign-in-page-btn">Sign in</button>
 
 
         </div>
-
 
 
     </div>
