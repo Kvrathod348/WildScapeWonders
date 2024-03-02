@@ -11,20 +11,7 @@ body {
     font-size: 20px;
 }
 
-.navbar-container {
-    /* background-color: #b3ffcb; */
-    background-color: #404040;
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-
-}
-
-.head-img-container {
+.navbar-img{
     /* background-color: bisque; */
     height: 70px;
     text-align: center;
@@ -38,43 +25,7 @@ body {
     margin-top: -5px;
     background-color: aliceblue;
     border-radius: 50px;
-
 }
 
-/* body section */
-  .heading-text{ 
-    width: 1000px;
-    margin: 30px 30px;
-    margin-bottom: 10px;
-    padding: 50px 30px;
-    border: solid 3px #00e68a;
-    background-color: #80ffcc ;
-    box-shadow: 10px 15px 30px 8px rgb(157, 156, 156);
-    border-radius: 0px 30px 0px 30px;
-    
-  }
-  .heading{
-    margin-left: 150px;
-    font-size: medium;
-  }
-  .s-animal{
-    background-color: #e6ff99;
-    width: 800px;
-    height: 450px;
-    margin: 20px 5px;
-    margin-left: 60px;
-    padding: 50px 30px;
-    border-radius: 20px;
-    border: solid #bfff00;
-    box-shadow: 10px 15px 30px 8px rgb(157, 156, 156);
-  }
-  .animal-img{
-    width: 480px;
-    margin-top: -400px ;
-    margin-left: 850px;
-    padding: 20px;
-  }
-  .animal-midTop{
-    border-radius: 20px;
-    box-shadow: 10px 8px 20px 5px rgb(157, 156, 156);
-  }
+
+

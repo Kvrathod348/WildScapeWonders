@@ -6,22 +6,30 @@
 .body{
     border: none;
 }
+.brand-logo{
+    width: 130px;
+    padding-top: 20px;
+}
+
 
 .hedding-container{
-    font-family: "Anta", sans-serif;
+    font-family: "Anta", sans-serif;  
     display: inline-block;
     display: flex;
     flex-direction:row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px;
-    background-color: skyblue;
+   
+    background-color: black;
 }
-.about{
-    color: black;
+.footer-heading{
+    color: white;
+    font-size: 13px;
+    padding-top: 40px;
     
 }
-.icon{
-    color: black;
+.social-media-image{
+    width: 20px;
 }
 
 .headding{
@@ -29,4 +37,12 @@
     align-items: center;
     justify-content: center;
     
+}
+.address{
+    color: white;
+    
+}
+.under-line{
+    text-decoration-color: rgb(255, 123, 0);
+    margin-top: 10px;
 }

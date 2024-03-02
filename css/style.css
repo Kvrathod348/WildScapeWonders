@@ -1,71 +1,87 @@
 /* button part */
 
-.btn-green{
-    background-color: #9fff80;
-    color: black;
-    border: 3px solid #269900;
-    padding: 5px 15px;
-    text-decoration: none;
-    border-radius: 20px;
+.btn-green {
+  background-color: #9fff80;
+  color: black;
+  border: 3px solid #269900;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 20px;
 }
-.btn-green:hover{
-    background-color: #99ffff ;
-    border: 3px solid #00b3b3;
-    transition: 0.5s;
+
+.btn-green:hover {
+  background-color: #99ffff;
+  border: 3px solid #00b3b3;
+  transition: 0.5s;
 }
+
 .btn-singup {
-    background-color: #33ff74;
-    font-weight: bold;
-    border: none;
-    border: 2px solid #008028;
-    border-radius: 30px;
+  background-color: #33ff74;
+  font-weight: bold;
+  border: none;
+  border: 2px solid #008028;
+  border-radius: 30px;
 }
 
 .btn-singup:hover {
-    background-color: #008028;
-    font-weight: bold;
-    border: 2px solid #008028;
-    color: white;
-    box-shadow: 0 0 2px 2px white;
-    transition: 0.5s;
-    cursor: pointer;
+  background-color: #008028;
+  font-weight: bold;
+  border: 2px solid #008028;
+  color: white;
+  box-shadow: 0 0 2px 2px white;
+  transition: 0.5s;
+  cursor: pointer;
 }
-.border-gray{
-    border: 3px solid 
+.btn-blue {
+  background-color: #99ffff;
+  color: black;
+  border: 3px solid #00b3b3;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 20px;
 }
+.btn-blue:hover {
+  background-color: #b3ffe6;
+  border: 3px double #00cc88;
+  transition: 0.5s;
+  box-shadow: 0px 0px 10px 3px white;
+}
+
+
 /* nav bar */
 .navbar-container {
-    background-color: #404040;
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    z-index: 100;
+  background-color: #404040;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .navbar-menu {
-    text-decoration: none;
-    margin: 30px;
-    font-size: 20px;
+  text-decoration: none;
+  margin: 30px;
+  font-size: 20px;
 
-    color: white;
+  color: white;
 }
 
 .navbar-logo-1 {
-    height: 100px;
-    margin: 5px;
-    margin-top: -12px;
+  height: 100px;
+  margin: 5px;
+  margin-top: -12px;
 
 }
 
 .navbar-logo-2 {
-    height: 40px;
-    margin: 5px;
-    margin-top: 14px;
+  height: 40px;
+  margin: 5px;
+  margin-top: 14px;
 
 }
+
 .menu {
   text-decoration: none;
   margin: 30px;
@@ -73,40 +89,242 @@
 
   color: white;
 }
+
 /* end of navbar */
 
 /* heading Part */
-.heading-text{ 
-    width: 1400px;
-    margin: 30px 30px;
-    margin-bottom: 10px;
-    padding: 50px 30px;
-  }
+.heading-top {
+  width: 1000px;
+  margin: 30px 30px;
+  margin-bottom: 10px;
+  padding: 50px 30px;
+}
 
-  /* google font  */
+/* google font  */
 
-  .font-style{
-    font-family: "Anta", sans-serif;
-  }
+.font-style {
+  font-family: "Anta", sans-serif;
+}
 
-  /* font size */
+/* font size */
 
-  .font-small{
-    font-weight: small;
-    font-style: normal;
-    font-size: 14px;
-  }
-
-  .font-medium{
-    font-weight: medium;
-    font-style: normal;
-    font-size: 14px;
-  }
-
-.font-large{
-  font-weight: large;
+.font-small {
+  font-weight: small;
   font-style: normal;
   font-size: 14px;
 }
+
+.font-medium {
+  font-weight: medium;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.font-large {
+  font-weight: large;
+  font-style: normal;
+  font-size: 30px;
+}
+
+/* body parts */
+/* heading start */
+.heading-top {
+  width: 1300px;
+  margin: 30px 30px;
+  margin-bottom: 50px;
+  padding: 50px 30px;
+  border: solid 3px #00e68a;
+  background-color: #80ffcc;
+  box-shadow: 10px 15px 30px 8px rgb(157, 156, 156);
+  border-radius: 0px 30px 0px 30px;
+
+}
+
+.heading {
+  margin-left: 150px;
+  font-size: medium;
+}
+
+.heading-mid {
+  margin: 60px auto;
+  padding-top: 40px;
+  text-align: center;
+  background-color: #ccfff2;
+  height: 75px;
+  width: 650px;
+  border-radius: 50px;
+  border: 5px double #00cc99;
+}
+
+/* headings end */
+
+.animal-specialinfo {
+  background-color: #e6ff99;
+  width: 800px;
+  height: 450px;
+  margin: 20px 5px;
+  margin-left: 40px;
+  padding: 50px 30px;
+  border-radius: 20px;
+  border: solid #bfff00 5px;
+  box-shadow: 10px 15px 30px 8px rgb(157, 156, 156);
+}
+
+.animal-specialinfo-2 {
+  background-color: #e6ff99;
+  width: 800px;
+  height: 650px;
+  margin: 20px 5px;
+  margin-left: 40px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: solid #bfff00 5px;
+  box-shadow: 10px 15px 30px 8px rgb(157, 156, 156);
+}
+
+.animal-img {
+  width: 480px;
+  margin-top: -400px;
+  margin-left: 850px;
+  padding: 20px;
+}
+
+.animal-mid-wellcome {
+  margin-left: 80px;
+  margin-top: 40px;
+  width:  32.5%;
+}
+
+.animal-design{
+  border-radius: 0px 50px;
+  box-shadow: 10px 15px 30px 6px rgb(157, 156, 156);
+  border: solid black 3px ;
+}
+
+.mid-body-container{
+  margin: 30px auto;
+}
+  .content-boxes{
+  display: flex;
+  }
+/* about animal video */
+.animal-description{
+  background-color: #00b3b3;
+  width: 1000px;
+  height: 80px;
+  text-align: center;
+  margin: 100px auto;
+  padding: 2px 0px 40px 0px  ;
+  border-radius: 5px 50px;
+  border: 5px double #258e8e;
+}
+
+.animal-video{
+  display: flex;
+  gap:  30px;
+  justify-items: center;
+  margin: 100px auto;
+} 
+.animal-video-card{
+  border-radius: 30px;
+  box-shadow: 10px 10px 30px 6px rgb(177, 174, 174)
+}
+/* about animal video end */
+
+/* safari booking */
+.animal-safari{
+  margin: 150px auto;
+  margin-bottom: 200px;
+}
+.animal-safari-book{
+  align-items: center;
+  text-align: center;
+  margin-top: -300px ;
+  margin-left: 300px;
+  color: white;
+  font-size: large;
+  width: 1000px;
+}
+/* safari booking end */
+
+/* season card */
+
+.footer-contanier{
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.main-card-season-container{ 
+  height: 400px;
+  margin: 50px auto;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 14px;
+}
+.season-card-container{
+  width: 350px;
+  height: 400px;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+.border-color-1{
+  border: 3px solid yellow;
+}
+.border-color-2{
+  border: 3px solid skyblue;
+}
+.border-color-3{
+  border: 3px solid aquamarine;
+}
+.season-container{  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  margin: 0 auto;
+  transition: 0.1;
+}
+.season-container:hover{
+  width:110px ;   
+}
+.season-name{
+  font-family: "Anta", sans-serif;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+ font-size: 24px;
+}
+.season-desc{
+  font-family: "Anta", sans-serif;
+  font-size: 16px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding:10px ;
+  padding-bottom: 10px;
+}
+.heading-name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: green;
+}
+.season-color-container{
+  background-color: yellow;
+}
+.season-color-container-1{
+  background-color: skyblue;
+}
+.season-color-container-2{
+  background-color:aquamarine ;
+  
+}
+/* season card end */
 
 
