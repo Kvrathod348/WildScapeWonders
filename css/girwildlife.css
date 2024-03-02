@@ -2,6 +2,8 @@ body {
     padding: 0;
     margin: 0;
     background-color: off #f5f5f5;
+    font-family: "Anta", sans-serif;
+    cursor: pointer;
 }
 
 /* font-family: "Anta", sans-serif; */
@@ -88,4 +90,186 @@ body {
     transition: 0.5s;
     cursor: pointer;
 
+}
+/* season cards section */
+.footer-contanier{
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.main-card-season-container{ 
+    height: 400px;
+    margin: 50px auto;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 14px;
+}
+.season-card-container{
+    width: 350px;
+    height: 400px;
+    padding-top: 10px;
+    border-radius: 5px;
+
+}
+.border-color-1{
+    border: 3px solid yellow;
+}
+.border-color-2{
+    border: 3px solid skyblue;
+}
+.border-color-3{
+    border: 3px solid aquamarine;
+}
+.season-container{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    margin: 0 auto;
+    transition: 0.1;
+}
+.season-container:hover{
+    width:110px ;   
+}
+.season-name{
+    font-family: "Anta", sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   font-size: 24px;
+}
+.season-desc{
+    font-family: "Anta", sans-serif;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding:10px ;
+    padding-bottom: 10px;
+}
+.heading-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: green;
+}
+.season-color-container{
+    background-color: yellow;
+}
+.season-color-container-1{
+    background-color: skyblue;
+}
+.season-color-container-2{
+    background-color:aquamarine ;
+    
+}
+/* body section */
+/* heading name */
+.heading-image{
+    width: 100%;
+    height: 500px;
+}
+.first-attraction{
+    width: 500px;
+    border-radius: 20px;
+}
+.special-animal-container {
+
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.special-animal-heading{
+    color: #05b53d;
+}
+.spe-animal-desc-container {
+
+    /* background-color: #33ff74; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 650px;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: "Anta", sans-serif;
+   
+}
+.spe-animal-img {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 4px gray;
+    margin-top: 50px;
+}
+.welcome-heading-container {
+    background-color: #ffff33;
+    text-align: center;
+}
+.history-container {
+    padding: 10px;
+    /* background-color: #33ff74; */
+    display: flex;
+    justify-content: space-around;
+    height: 440px;
+    text-align: center;
+}
+
+.history-desc-container {
+    background-color: #79ff4d;
+    height: 350px;
+    width: 600px;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: "Anta", sans-serif;
+}
+
+.history-heading {
+    font-size: 30px;
+    text-align: center;
+
+}
+.history-img {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 4px gray;
+    margin-top: 30px;
+
+
+}
+.temple-image-container{
+    display: flex;
+    justify-content: space-around;
+    
+  
+}
+
+
+.near-attraction-image{
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+    /* background-color: aqua; */
+}
+.heading-name-attraction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #33ff74;
+}
+.temple-images{
+
+    border-radius: 10px;
+    padding: 10px;
+}
+.temple-name{
+    font-size: 20px;
 }
