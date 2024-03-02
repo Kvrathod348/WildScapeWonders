@@ -188,6 +188,7 @@ body {
     border-radius: 10px;
     padding: 10px;
     font-family: "Anta", sans-serif;
+    border: 2px solid #07842f;
 }
 
 .history-text-font-size{

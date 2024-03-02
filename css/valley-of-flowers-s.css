@@ -176,6 +176,11 @@ body {
     border-radius: 10px;
     padding: 10px;
     font-family: "Anta", sans-serif;
+    border: 2px solid #07842f;
+}
+
+.history-text-font-size{
+    font-size: 25px !important;
 }
 
 .history-img-container {
@@ -998,6 +1003,126 @@ body {
 }
 
 
+/* season card section */
+
+
+.main-card-season-container{ 
+    height: 400px;
+    margin: 50px auto;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 14px;
+}
+.season-card-container{
+    width: 350px;
+    height: 400px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+.border-color-1{
+    border: 3px solid yellow;
+}
+.border-color-2{
+    border: 3px solid skyblue;
+}
+.border-color-3{
+    border: 3px solid aquamarine;
+}
+.season-container{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    margin: 0 auto;
+    transition: 0.1;
+}
+.season-container:hover{
+    width:110px ;   
+}
+.season-name{
+    font-family: "Anta", sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   font-size: 24px;
+}
+.season-desc{
+    font-family: "Anta", sans-serif;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding:10px ;
+    padding-bottom: 10px;
+}
+.heading-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: green;
+}
+.season-color-container{
+    background-color: yellow;
+}
+.season-color-container-1{
+    background-color: skyblue;
+}
+.season-color-container-2{
+    background-color:aquamarine ;
+    
+}
+
+
+
+/* Near attraction cards section */
+.near-attraction-heading{
+    text-align: center;
+}
+
+.near-attractions-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    height: 400px;
+    padding: 10px;
+}
+
+.near-attraction-card{
+    height: 330px;
+    width: 250px;
+    background-color: #ffffcc;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #ffff1a;
+   
+    
+}
+
+.near-attraction-img{
+    height: 180px;
+    width: 240px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+   
+}
+
+.near-attraction-text{
+    text-align: center;
+}
+
+.near-attra-desc{
+  text-align: center;
+}
+
+
 
 
 
@@ -1006,9 +1131,6 @@ body {
 
 /* footer section */
 
-.body{
-    border: none;
-}
 .brand-logo{
     width: 130px;
     padding-top: 20px;
