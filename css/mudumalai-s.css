@@ -504,6 +504,8 @@ body {
     font-size: 8px !important;
     padding-top: 40px;
 }
+
+
 .social-media-image{
     width: 20px;
 }
@@ -665,7 +667,6 @@ body {
 
     .history-img-container {
         /* background-color: aqua; */
-
     }
 
 
@@ -849,7 +850,7 @@ body {
 
     .signup-btn {
         padding: 9px 10px;
-        font-size: 10px !important;
+        font-size: 13px !important;
     }
 
     /* body section */
@@ -888,7 +889,7 @@ body {
     }
 
     .special-animal-heading {
-        font-size: 20px;
+        font-size: 23px;
     }
 
     .spe-animal-desc-container {
@@ -964,11 +965,24 @@ body {
         text-align: center;
     }
 
-    
-        
-        .history-text{
-          font-size: 18px !important;
-        }
+    .history-img-container {
+        /* background-color: aqua; */
+
+    }
+
+    .history-img {
+        height: 280px;
+        width: 380px;
+    }
+
+    .welcome-heading-container {
+        background-color: #33ff74;
+        text-align: center;
+    }
+
+    .history-heading {
+        font-size: 30px;
+        text-align: center;
     }
 
     /* history know more section videos */
@@ -978,7 +992,7 @@ body {
     }
 
     .font-size {
-        font-size: 16px !important;
+        font-size: 20px;
     }
 
 
@@ -993,7 +1007,7 @@ body {
     }
 
     .mudu-park-video-div {
-        width: 250px !important;
+        width: 290px !important;
         height: 270px !important;
         margin: 20px;
         position: relative;
@@ -1011,13 +1025,13 @@ body {
 
 .near-attraction-heading{
     text-align: center;
-    font-size: 23px !important;
+    font-size: 20px;
 }
 
 .near-attractions-card-container{
     display: flex;
     flex-wrap: wrap;
-    /* background-color: antiquewhite; */
+    background-color: antiquewhite;
     height: auto !important;
     padding: 10px;
 }
@@ -1051,6 +1065,128 @@ body {
 /* footer section */
 
 .brand-logo{
+    width: 100px !important;
+    padding-top: 10px !important;
+}
+
+
+.heading-footer-container{
+    display: inline-block;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: black !important;
+}
+.footer-heading{
+    color: white;
+    font-size: 15px !important;
+    padding-top: 40px;
+}
+
+.footer-text{
+    font-size: 10px !important;
+}
+.social-media-image{
+    width: 20px;
+}
+
+.headding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.address{
+    color: white;
+    
+}
+.under-line{
+    text-decoration-color: rgb(255, 123, 0);
+    margin-top: 10px;
+}
+  }
+
+    /* history know more section videos */
+
+    .know-more-container {
+        text-align: center;
+    }
+
+    .font-size {
+        font-size: 20px !important;
+    }
+
+
+    .mudu-park-video-container {
+        /* background-color: antiquewhite; */
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .mudu-park-video-div {
+        width: 250px !important;
+        height: 270px !important;
+        margin: 20px;
+        position: relative;
+        align-items: center;
+    }
+
+
+    .iframe-mudu-park-video-div {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+     /* near attraction places section */
+
+.near-attraction-heading{
+    text-align: center;
+    font-size: 25px !important;
+}
+
+.near-attractions-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: antiquewhite; */
+    height: auto !important;
+    padding: 10px;
+}
+
+.near-attraction-card{
+    height: 280px !important;
+    width: 200px !important;
+   margin: 10px;
+    
+}
+
+.near-attraction-img{
+    height: 120px !important;
+    width: 200px !important;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+   
+}
+
+.near-attraction-text{
+    text-align: center;
+    font-size: 18px;
+}
+
+.near-attra-desc{
+  text-align: center;
+  font-size: 15px;
+}
+
+/* footer section */
+
+.brand-logo{
     width: 80px !important;
     padding-top: 10px !important;
 }
@@ -1068,6 +1204,10 @@ body {
     color: white;
     font-size: 8px !important;
     padding-top: 40px;
+}
+
+.footer-text{
+    font-size: 12px !important;
 }
 .social-media-image{
     width: 20px;
@@ -1088,9 +1228,6 @@ body {
     margin-top: 10px;
 }
 
-
-
-}
 
 
 @media screen and (min-width:770px) and (max-width:1200px) {
@@ -1338,6 +1475,10 @@ body {
     color: white;
     font-size: 8px !important;
     padding-top: 40px;
+}
+
+.footer-text{
+    font-size: 10px !important;
 }
 .social-media-image{
     width: 20px;
