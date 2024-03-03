@@ -138,9 +138,10 @@
 
 /* heading start */
 .heading-top {
-  width: 1300px;
-  margin: 30px 30px;
-  margin-bottom: 50px;
+  width: 85%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 4%;
   padding: 50px 30px;
   background-color: #00b3b3;
   border: 8px double #c1f0f0;
@@ -182,10 +183,9 @@
 .animal-specialinfo-2 {
   background-color: #e6ff99;
   width: 800px;
-  height: 650px;
   margin: 20px 5px;
   margin-left: 40px;
-  padding: 10px 20px;
+  padding: 40px;
   border-radius: 20px;
   border: solid #bfff00 5px;
   box-shadow: 10px 15px 30px 8px rgb(157, 156, 156);
@@ -206,7 +206,7 @@
 
 .animal-mid-wellcome {
   margin-left: 80px;
-  margin-top: 40px;
+  margin-top: 15px;
   width:  32.5%;
 }
 
@@ -220,7 +220,7 @@
   object-fit: cover;
 }
 .animal-design-2{
-  height: 650px;
+  height: 730px;
 }
 
 .mid-body-container{
@@ -284,6 +284,7 @@
   height: 400px;
   padding-top: 10px;
   border-radius: 5px;
+  box-shadow: 10px 18px 15px 3px rgb(174, 174, 174);
 }
 .border-color-1{
   border: 3px solid yellow;
