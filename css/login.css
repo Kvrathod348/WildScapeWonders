@@ -161,204 +161,402 @@ body{
     transition: 0.5s;
   }
   
+  @media screen and (min-width:300px) and (max-width:569px){
 
-
-@media screen and (min-width:300px) and (max-width:569px){
-
-    .login-form-main-container{
-        height: 00px;
-        width: 200px !important;
-        margin-left:-140px !important;
-        position: absolute;
-         top: 120px;
-         left: 40%;
-
-    }
+    /* navbaer */
     
-    
-    .login-text{
-        font-size: 25px;
-    }
-    
-    .login-logo-img{
-        height: 20px;
+    .navbar-container {
+        display: flex;
+        height: 60px;
+        justify-content: space-around !important;
        
     }
     
-    .login-form-container{
-        /* background-color: white; */
-        width: 160px;
-        margin: 30px auto;
-        margin-top: 0;
+    .head-img-container {
+        /* background-color: bisque; */
+        height: 30px;
+        text-align: center;
+        display: flex;
+    
+    }
+    
+    .navbar-logo-1 {
+        height: 50px !important;
+        margin: 5px;
+        margin-top: -10px !important;
+    
+    }
+    
+    .navbar-logo-2 {
+        margin-top: 3px !important;
+        height: 30px !important;
+    
+    }
+    
+    .menus-container{
+       /* background-color: blue; */
+       width: 250px;
+    }
+    .menu {
+        text-decoration: none;
+        margin: 7px !important;
+        font-size: 10px !important;
+        color: white;
+        cursor: pointer;
+    }
+    
+    
+    .signup-btn {
+        padding: 7px 15px !important;
+        border-radius: 20px;
+        font-size: 10px;
+    }
+    
+    /* login section */
+    
+        .login-form-main-container{
+            height: 270px !important;
+            width: 200px !important;
+            margin-left:-140px !important;
+            position: absolute;
+             top: 200px !important;
+             left: 40%;
+             padding: 10px;
+    
+        }
         
         
+        .login-text{
+            font-size: 25px;
+        }
+        
+        .login-logo-img{
+            height: 20px;
+           
+        }
+        
+        .login-form-container{
+            /* background-color: white; */
+            width: 160px;
+            margin: 30px auto;
+            margin-top: 0;
+            
+            
+        }
+        
+        
+        .input-box{
+            height: 20px;
+            width: 150px;
+        
+        }
+        
+        .btn-green{
+            margin-left: 40px;
+           padding: 7px 20px;
+           border-radius: 10px;
+          
+        }
+    
     }
     
+
     
-    .input-box{
-        height: 20px;
-        width: 150px;
-    
-    }
-    
-    .login-page-btn{
-        margin-left: 40px;
-       padding: 7px 20px;
-       border-radius: 10px;
-      
-    }
-
-}
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:600px){
-
-    .login-form-main-container{
-        height: 300px;
-        width: 250px;
-        margin-left:-200px;
-        position: absolute;
-         top: 120px;
-         left: 40%;
-    }
+    @media screen and (max-width:600px){
     
     
-    .login-text{
-        font-size: 25px;
-    }
+        /* navbaer */
     
-    .login-logo-img{
-        height: 20px;
+    .navbar-container {
+        display: flex;
+        height: 60px;
+        justify-content: space-around !important;
        
     }
     
-    .login-form-container{
-        /* background-color: white; */
-        width: 140px;
-        margin: 30px auto;
-        margin-top: 0;
+    .head-img-container {
+        /* background-color: bisque; */
+        height: 30px;
+        text-align: center;
+        display: flex;
+    
+    }
+    
+    .navbar-logo-1 {
+        height: 50px !important;
+        margin: 5px;
+        margin-top: -10px !important;
+    
+    }
+    
+    .navbar-logo-2 {
+        margin-top: 3px !important;
+        height: 30px !important;
+    
+    }
+    
+    .menus-container{
+       /* background-color: blue; */
+       width: 300px;
+    }
+    .menu {
+        text-decoration: none;
+        margin: 7px !important;
+        font-size: 10px !important;
+        color: white;
+        cursor: pointer;
+    }
+    
+    
+    .signup-btn {
+        padding: 7px 15px !important;
+        border-radius: 20px;
+        font-size: 10px;
+    }
+    
+    
+       .login-form-main-container{
+            height: 280px;
+            width: 250px;
+            margin-left:-200px;
+            position: absolute;
+             top: 180px;
+             left: 40%;
+             padding: 10px;
+        }
         
+        
+        .login-text{
+            font-size: 25px;
+        }
+        
+        .login-logo-img{
+            height: 20px;
+           
+        }
+        
+        .login-form-container{
+            /* background-color: white; */
+            width: 140px;
+            margin: 30px auto;
+            margin-top: 0;
+            
+        }
+        
+        
+        .input-box{
+            height: 20px;
+            width: 120px;
+        
+        }
+        
+        .login-page-btn{
+            margin-left: 25px;
+           padding: 7px 20px;
+           border-radius: 10px;
+          
+        }
+    
     }
     
     
-    .input-box{
-        height: 20px;
-        width: 120px;
+    @media screen and (min-width:601px) and (max-width:768px){
     
-    }
+        /* navbaer */
     
-    .login-page-btn{
-        margin-left: 25px;
-       padding: 7px 20px;
-       border-radius: 10px;
-      
-    }
-
-}
-
-
-@media screen and (min-width:601px) and (max-width:768px){
-
-    .login-form-main-container{
-        height: 300px;
-        width: 300px;
-        margin-left:-200px;
-        position: absolute;
-         top: 120px;
-         left: 40%;
-
-    }
-    
-    
-    .login-text{
-        font-size: 25px;
-    }
-    
-    .login-logo-img{
-        height: 20px;
+    .navbar-container {
+        display: flex;
+        height: 60px;
+        justify-content: space-around !important;
        
     }
     
-    .login-form-container{
-        /* background-color: white; */
-        width: 160px;
-        margin: 30px auto;
-        margin-top: 0;
+    .head-img-container {
+        /* background-color: bisque; */
+        height: 30px;
+        text-align: center;
+        display: flex;
+    
+    }
+    
+    .navbar-logo-1 {
+        height: 50px !important;
+        margin: 5px;
+        margin-top: -10px !important;
+    
+    }
+    
+    .navbar-logo-2 {
+        margin-top: 3px !important;
+        height: 30px !important;
+    
+    }
+    
+    .menus-container{
+       /* background-color: blue; */
+       width: 340px;
+    }
+    .menu {
+        text-decoration: none;
+        margin: 7px !important;
+        font-size: 14px !important;
+        color: white;
+        cursor: pointer;
+    }
+    
+    
+    .signup-btn {
+        padding: 7px 15px !important;
+        border-radius: 20px;
+        font-size: 10px;
+    }
+    
+    
+        .login-form-main-container{
+            height: 290px;
+            width: 300px;
+            margin-left:-240px;
+            position: absolute;
+             top: 180px;
+             left: 40%;
+             padding: 10px;
+    
+        }
         
         
+        .login-text{
+            font-size: 25px;
+        }
+        
+        .login-logo-img{
+            height: 20px;
+           
+        }
+        
+        .login-form-container{
+            /* background-color: white; */
+            width: 160px;
+            margin: 30px auto;
+            margin-top: 0;
+            
+            
+        }
+        
+        
+        .input-box{
+            height: 20px;
+            width: 150px;
+        
+        }
+        
+        .login-page-btn{
+            margin-left: 40px;
+           padding: 7px 20px;
+           border-radius: 10px;
+          
+        }
+    
     }
     
     
-    .input-box{
-        height: 20px;
-        width: 150px;
     
-    }
+    @media screen and (min-width:769px) and (max-width:1000px){
     
-    .login-page-btn{
-        margin-left: 40px;
-       padding: 7px 20px;
-       border-radius: 10px;
-      
-    }
-
-}
-
-
-
-@media screen and (min-width:769px) and (max-width:850px){
-
-    .login-form-main-container{
-        height: 300px;
-        width: 300px;
-        margin-left:-200px;
-        position: absolute;
-         top: 120px;
-         left: 40%;
-
-    }
+        /* navbaer */
     
-    
-    .login-text{
-        font-size: 25px;
-    }
-    
-    .login-logo-img{
-        height: 20px;
+    .navbar-container {
+        display: flex;
+        height: 60px;
+        justify-content: space-around !important;
        
     }
     
-    .login-form-container{
-        /* background-color: white; */
-        width: 160px;
-        margin: 30px auto;
-        margin-top: 0;
+    .head-img-container {
+        /* background-color: bisque; */
+        height: 30px;
+        text-align: center;
+        display: flex;
+    
+    }
+    
+    .navbar-logo-1 {
+        height: 80px !important;
+        margin: 5px;
+        margin-top: -24px !important;
+    
+    }
+    
+    .navbar-logo-2 {
+        margin-top: 3px !important;
+        height: 35px !important;
+    
+    }
+    
+    .menus-container{
+       /* background-color: blue; */
+       width: 440px;
+    }
+    .menu {
+        text-decoration: none;
+        margin: 10px !important;
+        font-size: 18px !important;
+        color: white;
+        cursor: pointer;
+    }
+    
+    
+    .signup-btn {
+        padding: 10px 20px !important;
+        border-radius: 20px;
+        font-size: 13px !important;
+    }
+    
+    
+        .login-form-main-container{
+            height: 290px;
+            width: 300px;
+            margin-left:-240px;
+            position: absolute;
+             top: 180px;
+             left: 40%;
+             padding: 10px;
+    
+        }
         
         
+        .login-text{
+            font-size: 25px;
+        }
+        
+        .login-logo-img{
+            height: 20px;
+           
+        }
+        
+        .login-form-container{
+            /* background-color: white; */
+            width: 160px;
+            margin: 30px auto;
+            margin-top: 0;
+            
+            
+        }
+        
+        
+        .input-box{
+            height: 20px;
+            width: 150px;
+        
+        }
+        
+        .login-page-btn{
+            margin-left: 40px;
+           padding: 7px 20px;
+           border-radius: 10px;
+          
+        }
+    
     }
     
     
-    .input-box{
-        height: 20px;
-        width: 150px;
     
-    }
-    
-    .login-page-btn{
-        margin-left: 40px;
-       padding: 7px 20px;
-       border-radius: 10px;
-      
-    }
-
-}
-
-

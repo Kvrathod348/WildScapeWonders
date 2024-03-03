@@ -96,6 +96,57 @@ body{
 
 @media screen and (min-width:300px) and (max-width:569px){
 
+/* navbaer */
+
+.navbar-container {
+    display: flex;
+    height: 60px;
+    justify-content: space-around !important;
+   
+}
+
+.head-img-container {
+    /* background-color: bisque; */
+    height: 30px;
+    text-align: center;
+    display: flex;
+
+}
+
+.navbar-logo-1 {
+    height: 50px !important;
+    margin: 5px;
+    margin-top: -10px !important;
+
+}
+
+.navbar-logo-2 {
+    margin-top: 3px !important;
+    height: 30px !important;
+
+}
+
+.menus-container{
+   /* background-color: blue; */
+   width: 250px;
+}
+.menu {
+    text-decoration: none;
+    margin: 7px !important;
+    font-size: 10px !important;
+    color: white;
+    cursor: pointer;
+}
+
+
+.signup-btn {
+    padding: 7px 15px !important;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+/* login section */
+
     .login-form-main-container{
         height: 400px !important;
         width: 200px !important;
@@ -152,6 +203,57 @@ body{
 
 @media screen and (max-width:600px){
 
+
+    /* navbaer */
+
+.navbar-container {
+    display: flex;
+    height: 60px;
+    justify-content: space-around !important;
+   
+}
+
+.head-img-container {
+    /* background-color: bisque; */
+    height: 30px;
+    text-align: center;
+    display: flex;
+
+}
+
+.navbar-logo-1 {
+    height: 50px !important;
+    margin: 5px;
+    margin-top: -10px !important;
+
+}
+
+.navbar-logo-2 {
+    margin-top: 3px !important;
+    height: 30px !important;
+
+}
+
+.menus-container{
+   /* background-color: blue; */
+   width: 300px;
+}
+.menu {
+    text-decoration: none;
+    margin: 7px !important;
+    font-size: 10px !important;
+    color: white;
+    cursor: pointer;
+}
+
+
+.signup-btn {
+    padding: 7px 15px !important;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+
     .login-form-main-container{
         height: 400px;
         width: 250px;
@@ -197,6 +299,56 @@ body{
 
 
 @media screen and (min-width:601px) and (max-width:768px){
+
+    /* navbaer */
+
+.navbar-container {
+    display: flex;
+    height: 60px;
+    justify-content: space-around !important;
+   
+}
+
+.head-img-container {
+    /* background-color: bisque; */
+    height: 30px;
+    text-align: center;
+    display: flex;
+
+}
+
+.navbar-logo-1 {
+    height: 50px !important;
+    margin: 5px;
+    margin-top: -10px !important;
+
+}
+
+.navbar-logo-2 {
+    margin-top: 3px !important;
+    height: 30px !important;
+
+}
+
+.menus-container{
+   /* background-color: blue; */
+   width: 340px;
+}
+.menu {
+    text-decoration: none;
+    margin: 7px !important;
+    font-size: 14px !important;
+    color: white;
+    cursor: pointer;
+}
+
+
+.signup-btn {
+    padding: 7px 15px !important;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
 
     .login-form-main-container{
         height: 400px;
@@ -246,6 +398,56 @@ body{
 
 
 @media screen and (min-width:769px) and (max-width:1000px){
+
+    /* navbaer */
+
+.navbar-container {
+    display: flex;
+    height: 60px;
+    justify-content: space-around !important;
+   
+}
+
+.head-img-container {
+    /* background-color: bisque; */
+    height: 30px;
+    text-align: center;
+    display: flex;
+
+}
+
+.navbar-logo-1 {
+    height: 80px !important;
+    margin: 5px;
+    margin-top: -24px !important;
+
+}
+
+.navbar-logo-2 {
+    margin-top: 3px !important;
+    height: 35px !important;
+
+}
+
+.menus-container{
+    /* background-color: blue; */
+    width: 440px;
+ }
+.menu {
+    text-decoration: none;
+    margin: 10px !important;
+    font-size: 18px !important;
+    color: white;
+    cursor: pointer;
+}
+
+
+.signup-btn {
+    padding: 10px 20px !important;
+    border-radius: 20px;
+    font-size: 13px !important;
+}
+
 
     .login-form-main-container{
         height: 400px;
