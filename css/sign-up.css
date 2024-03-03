@@ -81,9 +81,10 @@ body{
 
 
 .signup-container-height{
-    height: 450px;
+    height: 440px;
     width: 340px;
-    top: 120px;
+    top: 100px;
+    padding: 10px;
 }
 
 
@@ -152,8 +153,9 @@ body{
         width: 200px !important;
         margin-left:-140px !important;
         position: absolute;
-         top: 120px;
-         left: 40%;
+         top: 130px !important;
+         left: 35% !important;
+         padding: 10px;
 
     }
     
@@ -295,7 +297,51 @@ body{
       
     }
 
+    /* footer section */
+
+.brand-logo{
+    width: 80px !important;
+    padding-top: 10px !important;
 }
+
+
+.heading-footer-container{
+    display: inline-block;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: black !important;
+}
+.footer-heading{
+    color: white;
+    font-size: 8px !important;
+    padding-top: 40px;
+}
+
+
+.social-media-image{
+    width: 20px;
+}
+
+.headding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.address{
+    color: white;
+    
+}
+.under-line{
+    text-decoration-color: rgb(255, 123, 0);
+    margin-top: 10px;
+}
+
+
+}
+
 
 
 @media screen and (min-width:601px) and (max-width:768px){
@@ -351,8 +397,8 @@ body{
 
 
     .login-form-main-container{
-        height: 400px;
-        width: 300px;
+        height: 380px;
+        width: 280px;
         margin-left:-200px;
         position: absolute;
          top: 120px;
@@ -392,6 +438,46 @@ body{
        border-radius: 10px;
       
     }
+
+     /* footer section */
+
+.brand-logo{
+    width: 80px !important;
+    padding-top: 10px !important;
+}
+
+
+.heading-footer-container{
+    display: inline-block;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: black !important;
+}
+.footer-heading{
+    color: white;
+    font-size: 8px !important;
+    padding-top: 40px;
+}
+.social-media-image{
+    width: 20px;
+}
+
+.headding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.address{
+    color: white;
+    
+}
+.under-line{
+    text-decoration-color: rgb(255, 123, 0);
+    margin-top: 10px;
+}
 
 }
 
@@ -492,6 +578,54 @@ body{
       
     }
 
+    /* footer section */
+
+.brand-logo{
+    width: 100px !important;
+    padding-top: 10px !important;
 }
+
+
+.heading-footer-container{
+    display: inline-block;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: black !important;
+}
+.footer-heading{
+    color: white;
+    font-size: 10px !important;
+    padding-top: 40px;
+}
+
+.footer-text{
+    font-size: 10px !important;
+}
+.social-media-image{
+    width: 20px;
+}
+
+.headding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.address{
+    color: white;
+    
+}
+.under-line{
+    text-decoration-color: rgb(255, 123, 0);
+    margin-top: 10px;
+}
+
+   
+
+
+}
+
 
 
