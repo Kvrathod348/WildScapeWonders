@@ -250,14 +250,17 @@ body {
 /* safari booking section */
 
 .animal-safari-main-container{
-    height: 650px;
+    height: 700px;
    
-  
 }
 
 .animal-safari-img{
-   width: 100%;
-   height: 400px;
+   width: 80%;
+   height: 420px;
+   border-radius: 10px;
+   display: block;
+   margin: 0 auto;
+   box-shadow: 0 0 10px 6px gray;
 }
 
 .animal-safari-desc-container{
@@ -267,11 +270,12 @@ body {
    text-align: center;
    display: block;
    margin: 0 auto;
-   border-radius: 0 0 10px 10px;
+   border-radius: 0 0 20px 20px;
    margin-top: -4px;
-   padding: 20px;
+   padding: 17px;
+   border: 2px solid #e0e03d;
 }
-
+  
 .btn-blue {
     background-color: #99ffff;
     color: black;
@@ -286,6 +290,7 @@ body {
     transition: 0.5s;
     box-shadow: 0px 0px 10px 3px white;
   }
+
 
 
 @media screen and (max-width:600px) {
@@ -475,6 +480,16 @@ body {
         top: 0;
     }
 
+    /* booking safari section */
+
+    .book-safari-heading{
+        font-size: 20px;
+    }
+    
+    .book-safari-desc{
+        font-size: 15px;
+    }
+
     /* near attraction places section */
 
 .near-attraction-heading{
@@ -575,6 +590,16 @@ body {
 @media screen and (min-width:601px) and (max-width:660px) {
     .signup-btn {
         width: 90px;
+    }
+
+    /* booking safari section */
+
+    .book-safari-heading{
+        font-size: 20px;
+    }
+    
+    .book-safari-desc{
+        font-size: 15px;
     }
 
 }
@@ -766,6 +791,16 @@ body {
         position: absolute;
         left: 0;
         top: 0;
+    }
+
+    /* booking safari section */
+
+    .book-safari-heading{
+        font-size: 25px;
+    }
+    
+    .book-safari-desc{
+        font-size: 15px;
     }
 
 
@@ -1056,6 +1091,16 @@ body {
         top: 0;
     }
 
+    /* booking safari section */
+
+    .book-safari-heading{
+        font-size: 25px;
+    }
+    
+    .book-safari-desc{
+        font-size: 15px;
+    }
+
      /* near attraction places section */
 
 .near-attraction-heading{
@@ -1323,6 +1368,16 @@ body {
         position: absolute;
         left: 0;
         top: 0;
+    }
+
+    /* booking safari section */
+
+    .book-safari-heading{
+        font-size: 25px;
+    }
+    
+    .book-safari-desc{
+        font-size: 15px;
     }
 
      /* near attraction places section */
