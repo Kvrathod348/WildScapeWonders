@@ -724,6 +724,89 @@ body {
     }
 
 
+     /* near attraction places section */
+
+.near-attraction-heading{
+    text-align: center;
+    font-size: 20px;
+}
+
+.near-attractions-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    height: auto !important;
+    padding: 10px;
+}
+
+.near-attraction-card{
+    height: 280px !important;
+    width: 200px !important;
+   margin: 10px;
+    
+}
+
+.near-attraction-img{
+    height: 120px !important;
+    width: 200px !important;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+   
+}
+
+.near-attraction-text{
+    text-align: center;
+    font-size: 15px;
+}
+
+.near-attra-desc{
+  text-align: center;
+  font-size: 15px;
+}
+
+    /* footer section */
+
+.brand-logo{
+    width: 80px !important;
+    padding-top: 10px !important;
+}
+
+
+.heading-footer-container{
+    display: inline-block;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: black !important;
+}
+.footer-heading{
+    color: white;
+    font-size: 8px !important;
+    padding-top: 40px;
+}
+.social-media-image{
+    width: 20px;
+}
+
+.headding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.address{
+    color: white;
+    
+}
+.under-line{
+    text-decoration-color: rgb(255, 123, 0);
+    margin-top: 10px;
+}
+
+
+
 }
 
 
