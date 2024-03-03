@@ -4,24 +4,16 @@ body {
     background-color: off #f5f5f5;
 }
 
-
-
     /* font-family: "Work Sans", sans-serif; */
-    
-  
-
 /* font-family: "Anta", sans-serif; */
 
 
 .anta-regular {
     font-family: "Anta", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
 }
 
 .font-size {
-    font-size: 20px;
+    font-size: 20px !important;
 }
 
 .navbar-container {
@@ -65,8 +57,7 @@ body {
 .menu {
     text-decoration: none;
     margin: 30px;
-    font-size: 20px;
-
+    font-size: 20px !important;
     color: white;
 }
 
@@ -180,6 +171,10 @@ body {
     text-align: center;
 }
 
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
 
 .history-desc-container {
     background-color: #79ee9e;
@@ -218,7 +213,6 @@ body {
 .history-heading {
     font-size: 30px;
     text-align: center;
-
 
 }
 
@@ -270,13 +264,27 @@ body {
 
 @media screen and (max-width:600px) {
 
-    .navbar-container {
-        padding: 5px;
 
+    .navbar-container {
+        /* background-color: #b3ffcb; */
+      
+        display: flex;
+        padding: 5px;
+        justify-content: space-evenly;
+    
     }
+    
+    .head-img-container {
+        /* background-color: bisque; */
+        height: 70px;
+        text-align: center;
+        display: flex;
+    
+    }
+    
 
     .navbar-logo-1 {
-        height: 70px;
+        height: 50px;
         margin: 5px;
         margin-top: -1px;
 
@@ -290,8 +298,13 @@ body {
     }
 
     .menu {
-        margin: 10px;
-        font-size: 10px;
+        margin: 8px !important;
+        font-size: 10px !important;
+    }
+
+    .menus-container{
+        /* background-color: #f5f5f5; */
+        width: 360px;
     }
 
 
@@ -309,9 +322,9 @@ body {
 
     .head-img-text {
 
-        top: 140px;
+        top: 200px;
         left: 80px;
-        font-size: 15px;
+        font-size: 15px !important;
         padding: 10px;
     }
 
@@ -341,8 +354,8 @@ body {
 
     .spe-animal-desc-container {
         font-size: 10px;
-        /* background-color:#33ff74; */
-        height: auto;
+        background-color:#33ff74;
+        height: auto !important;
         width: auto;
     }
 
@@ -354,7 +367,7 @@ body {
     }
 
     .special-animal-img-container {
-        /* background-color: rgb(255, 179, 0); */
+        background-color: rgb(255, 179, 0);
         height: 240px;
         align-items: center;
 
@@ -452,6 +465,120 @@ body {
         left: 0;
         top: 0;
     }
+
+    /* season section */
+    .main-card-season-container{ 
+        height: 1360px !important;
+        margin: 50px auto;
+        border-radius: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        font-size: 10px;
+        /* background-color: #ffff1a; */
+    }
+    .season-card-container{
+        width: 300px;
+        height: 250px;
+        padding-top: 10px;
+        border-radius: 5px;
+    }
+    .border-color-1{
+        border: 3px solid yellow;
+    }
+    .border-color-2{
+        border: 3px solid skyblue;
+    }
+    .border-color-3{
+        border: 3px solid aquamarine;
+    }
+    .season-container{  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        margin: 0 auto;
+        transition: 0.1;
+    }
+    .season-container:hover{
+        width:110px ;   
+    }
+    .season-name{
+        font-family: "Anta", sans-serif;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+       font-size: 24px;
+    }
+    .season-desc{
+        font-family: "Anta", sans-serif;
+        font-size: 16px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding:10px ;
+        padding-bottom: 10px;
+    }
+    .season-heading-name{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Anta", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        color: green;
+    }
+    .season-color-container{
+        background-color: yellow;
+    }
+    .season-color-container-1{
+        background-color: skyblue;
+    }
+    .season-color-container-2{
+        background-color:aquamarine ;
+        
+    }
+
+    /* Near attraction cards section */
+.near-attraction-heading{
+    text-align: center;
+}
+
+.near-attractions-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 750px !important;
+    padding: 10px;
+}
+
+.near-attraction-card{
+    height: 280px;
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 4px;
+}
+
+.near-attraction-img{
+    height: 180px;
+    width: 240px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+   
+}
+
+.near-attraction-text{
+    text-align: center;
+}
+
+.near-attra-desc{
+  text-align: center;
+}
+
+
+    
 }
 
 @media screen and (min-width:601px) and (max-width:660px) {
@@ -1074,7 +1201,7 @@ body {
     padding:10px ;
     padding-bottom: 10px;
 }
-.heading-name{
+.season-heading-name{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1138,27 +1265,6 @@ body {
 .near-attra-desc{
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* footer section */

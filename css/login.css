@@ -78,6 +78,13 @@ body{
 
 }
 
+.login-page-btn:hover {
+    background-color: #99ffff;
+    border: 3px solid #00b3b3;
+    transition: 0.5s;
+  }
+  
+
 
 @media screen and (min-width:300px) and (max-width:569px){
 
