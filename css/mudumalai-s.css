@@ -1210,15 +1210,15 @@ body {
 }
 
 .near-attraction-card{
-    height: 280px !important;
-    width: 200px !important;
+    height: 320px !important;
+    width: 250px !important;
    margin: 10px;
     
 }
 
 .near-attraction-img{
-    height: 120px !important;
-    width: 200px !important;
+    height: 160px !important;
+    width: 240px !important;
     display: block;
     margin: 0 auto;
     border-radius: 10px;
