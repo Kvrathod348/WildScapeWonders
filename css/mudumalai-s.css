@@ -98,12 +98,6 @@ body {
     position: relative;
 }
 
-/* .head-img-logo{
-    height: 120px;
-    position: absolute;
-    top: 120px;
-    left: 130px;
-} */
 
 .head-img-text {
     position: absolute;
@@ -188,10 +182,6 @@ body {
     font-size: 25px !important;
 }
 
-.history-img-container {
-    /* background-color: aqua; */
-
-}
 
 .history-img {
     height: 355px;
@@ -252,25 +242,17 @@ body {
     height: 100%;
 }
 
-
-
-
-
-
-
-
-
 @media screen and (max-width:600px) {
 
     .navbar-container {
-        padding: 5px;
+        padding: 5px !important;
 
     }
 
     .navbar-logo-1 {
-        height: 70px;
+        height: 70px !important;
         margin: 5px;
-        margin-top: -1px;
+        margin-top: -1px !important;
 
     }
 
@@ -281,9 +263,14 @@ body {
 
     }
 
+    .menus-container{
+        width: 200px !important;
+        /* background-color: #78e79b; */
+    }
+
     .menu {
         margin: 10px;
-        font-size: 10px;
+        font-size: 10px !important;
     }
 
 
@@ -386,11 +373,7 @@ body {
         font-size: 13px;
     }
 
-    .history-img-container {
-        /* background-color: aqua; */
-
-    }
-
+    
     .history-img {
         height: 220px;
         width: 300px;
@@ -452,7 +435,6 @@ body {
 .near-attractions-card-container{
     display: flex;
     flex-wrap: wrap;
-    background-color: antiquewhite;
     height: auto !important;
     padding: 10px;
 }
@@ -524,9 +506,6 @@ body {
     text-decoration-color: rgb(255, 123, 0);
     margin-top: 10px;
 }
-
-
-
 
 
 }
@@ -665,9 +644,6 @@ body {
         font-size: 14px;
     }
 
-    .history-img-container {
-        /* background-color: aqua; */
-    }
 
 
     .history-text{
@@ -739,7 +715,6 @@ body {
 .near-attractions-card-container{
     display: flex;
     flex-wrap: wrap;
-    background-color: antiquewhite;
     height: auto !important;
     padding: 10px;
 }
@@ -811,22 +786,18 @@ body {
 }
 
 
-
 }
-
 
 
 @media screen and (min-width:769px) and (max-width:950px) {
     .navbar-container {
         padding: 5px;
-
     }
 
     .navbar-logo-1 {
         height: 80px;
         margin: 5px;
         margin-top: -1px;
-
     }
 
     .navbar-logo-2 {
@@ -950,11 +921,6 @@ body {
         font-size: 18px !important;
       }
 
-    .history-img-container {
-        /* background-color: aqua; */
-
-    }
-
     .history-img {
         height: 280px;
         width: 380px;
@@ -965,10 +931,6 @@ body {
         text-align: center;
     }
 
-    .history-img-container {
-        /* background-color: aqua; */
-
-    }
 
     .history-img {
         height: 280px;
@@ -1031,7 +993,6 @@ body {
 .near-attractions-card-container{
     display: flex;
     flex-wrap: wrap;
-    background-color: antiquewhite;
     height: auto !important;
     padding: 10px;
 }
@@ -1153,7 +1114,6 @@ body {
 .near-attractions-card-container{
     display: flex;
     flex-wrap: wrap;
-    /* background-color: antiquewhite; */
     height: auto !important;
     padding: 10px;
 }
@@ -1358,11 +1318,6 @@ body {
         font-size: 18px !important;
       }
 
-    .history-img-container {
-        /* background-color: aqua; */
-
-    }
-
     .history-img {
         height: 280px;
         width: 380px;
@@ -1424,7 +1379,6 @@ body {
 .near-attractions-card-container{
     display: flex;
     flex-wrap: wrap;
-    background-color: antiquewhite;
     height: auto !important;
     padding: 10px;
 }
@@ -1586,7 +1540,6 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* background-color: antiquewhite; */
     height: 400px;
     padding: 10px;
 }
