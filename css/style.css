@@ -217,7 +217,7 @@
   border: solid black 3px ;
   width: 500px;
   height: 550px;
-  object-fit: cover;
+  object-fit: cover ;
 }
 .animal-design-2{
   height: 730px;
